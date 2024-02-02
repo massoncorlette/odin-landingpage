@@ -1,3 +1,3 @@
 "Landing Page" project for Odin Project CSS/HTML
 
-Having a difficult time using flexbox to it's full advantage. Using lots of margin and padding properties to make up for it. Call to action container does not wrap properly due to this. 
+Have had some difficulty with flexbox, so probably used some unorthodox ways to keep things inline, noted in the CSS.
