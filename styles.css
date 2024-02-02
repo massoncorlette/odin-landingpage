@@ -1,4 +1,4 @@
-* {border: 1px Solid red}
+* {border: 0px Solid red}
 
 body {
   margin: 0;
@@ -12,7 +12,7 @@ body {
 h1 {
   margin-top: 0%;
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 h3 {
@@ -33,13 +33,21 @@ ul {
   gap: 30px;
 }
 
+img {
+  border-radius: 6px;
+}
+/* unorthodox making subtext of pictures above subtext */
+.images-text p {
+  font-size: 14px;
+  width: 200px;
+  margin-top: 0%;
+}
+/* adding a lot of padding that seems unorthodox */
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 
@@ -51,7 +59,15 @@ ul {
 .hero {
   font-size: 35px;
   color: #F9FAF8;
-  margin-bottom: 0%;
+  margin-bottom: 30px;
+}
+
+.hero-secondary {
+  margin-bottom: 20px;
+}
+
+.links {
+  margin-left: 50px;
 }
 
 .img-tree {
@@ -70,26 +86,60 @@ ul {
 .random-information {
   display: flex;
   flex: 1;
-  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.images-container {
+  display: flex;
+  display: 1;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.images-text {
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+
 }
 
 .quote {
   display: flex;
   flex: 1;
+  flex-direction: column;
   background-color: #e5e7eb
 }
 
-.call-action {
-  font-size: 20px;
+.quoted-text {
+  font-size: 36px;
+  font-style: italic;
   display: flex;
   flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 50px;
+  margin-bottom: 0%;
 }
 
+#quoter {
+  font-size: 24;
+  font-weight: bold;
+  margin-top: 0%;
+  text-align: right;
+  margin-right: 75px;
+}
+.call-action {
+  font-size: 20px;
+  margin: 60px;
+  display: flex;
+  flex: 1;
+}
+/* added some more unorthodox properties I would assume */
 .call-action-container {
   display: flex;
+  flex: 1;
   align-items:center;
   justify-content: space-around;
   width: 800px;
@@ -119,4 +169,9 @@ a, .hero-secondary, #action-text {
 button, .call-action-container {
   color: white;
   background-color: #1e66da;
+}
+/* attempting to keep things lined up */
+.quote ,.header {
+  padding-left: 100px;
+  padding-right: 100px;
 }
